@@ -6,16 +6,18 @@ public class ThirdProgram
     {
         Boolean t;
         Scanner obj = new Scanner(System.in);
+        System.out.println("Enter height , radius and colour");
         cylinder c1=new cylinder(obj.nextFloat(),obj.nextFloat(),obj.next());
+        System.out.println("Enter height , radius and colour");
         cylinder c2=new cylinder(obj.nextFloat(),obj.nextFloat(),obj.next());
         t=c1.equals(c2);
         if(t==true){
             System.out.println("similar");
-            System.out.println("the area of cylinder="+c1.get_area()+"\t"+c2.get_area()+"\nthe volume of cylinder="+c1.get_Volume()+"\t"+c2.get_Volume()+"\narea of a circle="+ c1.get_superarea()+"\t"+c2.get_superarea());
+            System.out.println("the area of cylinder="+c1.get_area()+"\t"+c2.get_area()+"\nthe volume of cylinder="+c1.get_Volume()+"\t"+c2.get_Volume()+"\narea of a circle="+ c1.get_superarea()+"\t"+c2.get_superarea()+"\nColour = "+c1.colour+"\t"+c2.colour);
         }
         else{
             System.out.println("not similar");
-            System.out.println("the area of cylinder="+c1.get_area()+"\t"+c2.get_area()+"\nthe volume of cylinder="+c1.get_Volume()+"\t"+c2.get_Volume()+"\narea of a circle="+ c1.get_superarea()+"\t"+c2.get_superarea());
+            System.out.println("the area of cylinder="+c1.get_area()+"\t"+c2.get_area()+"\nthe volume of cylinder="+c1.get_Volume()+"\t"+c2.get_Volume()+"\narea of a circle="+ c1.get_superarea()+"\t"+c2.get_superarea()+"\nColour = "+c1.colour+"\t"+c2.colour);
         }
     }
 
