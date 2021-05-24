@@ -61,7 +61,8 @@ class Complex {
 
 }
 
-public class Imaginary {
+public class Imaginary
+{
 
 
     public static void main(String[] args)
