@@ -1,7 +1,7 @@
 package sixthprogram;
 
 import java.util.*;
-@SuppressWarnings("serial")
+
 
 
 public class sixthProg

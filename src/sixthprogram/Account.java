@@ -26,7 +26,7 @@ public class Account{
         {   balance=balance-amount;
             System.out.println("Amount Withdrawn=Rs."+amount);
         }
-        else if(balance-amount<0)
+        else if(balance-amount<500)
             System.out.println("No min balance");
     }
     void currBalance()
