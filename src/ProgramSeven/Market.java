@@ -10,6 +10,7 @@ class Market {
 
 
     public Market(int fruitsNumber) {
+
         this.fruitsNumber = fruitsNumber;
     }
 
